@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///home/maurice/FS-Stuff/NextJS/alx-project-0x01-setup/alx-project-0x01/pages/posts/index.tsx"],"sourcesContent":["import React from \"react\";\n\nconst index = () => {\n  return <div>This is the index page from Posts re-direct</div>;\n};\n\nexport default index;\n"],"names":[],"mappings":";;;;;;AAEA,MAAM,QAAQ;IACZ,qBAAO,qKAAC;kBAAI;;;;;;AACd;uCAEe"}}]
+}
