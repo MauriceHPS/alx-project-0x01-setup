@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///home/maurice/FS-Stuff/NextJS/alx-project-0x01-setup/alx-project-0x01/pages/index.tsx"],"sourcesContent":["import React from \"react\";\n\nconst Home: React.FC = () => {\n  return (\n    <>\n      <div className=\"flex justify-center items-center h-screen\">\n        <h1 className=\"text-7xl font-thin\">Welcome Page</h1>\n      </div>\n    </>\n  );\n};\n\nexport default Home;\n"],"names":[],"mappings":";;;;;;AAEA,MAAM,OAAiB;IACrB,qBACE;kBACE,cAAA,qKAAC;YAAI,WAAU;sBACb,cAAA,qKAAC;gBAAG,WAAU;0BAAqB;;;;;;;;;;;;AAI3C;uCAEe"}}]
+}
