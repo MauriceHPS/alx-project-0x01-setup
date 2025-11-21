@@ -4,7 +4,9 @@ module.exports = [
 
 __turbopack_context__.s([
     "default",
-    ()=>__TURBOPACK__default__export__
+    ()=>__TURBOPACK__default__export__,
+    "getStaticProps",
+    ()=>getStaticProps
 ]);
 var __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__ = __turbopack_context__.i("[externals]/react/jsx-dev-runtime [external] (react/jsx-dev-runtime, cjs)");
 ;
@@ -17,6 +19,15 @@ const index = ()=>{
         columnNumber: 10
     }, ("TURBOPACK compile-time value", void 0));
 };
+async function getStaticProps() {
+    const response = await fetch("https://jsonplaceholder.typicode.com/users");
+    const posts = await response.json();
+    return {
+        props: {
+            posts
+        }
+    };
+}
 const __TURBOPACK__default__export__ = index;
 }),
 "[externals]/next/dist/shared/lib/no-fallback-error.external.js [external] (next/dist/shared/lib/no-fallback-error.external.js, cjs)", ((__turbopack_context__, module, exports) => {

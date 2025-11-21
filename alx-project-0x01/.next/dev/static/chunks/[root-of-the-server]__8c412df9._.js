@@ -466,6 +466,8 @@ function triggerUpdate(msg) {
 "use strict";
 
 __turbopack_context__.s([
+    "__N_SSG",
+    ()=>__N_SSG,
     "default",
     ()=>__TURBOPACK__default__export__
 ]);
@@ -480,6 +482,7 @@ const index = ()=>{
         columnNumber: 10
     }, ("TURBOPACK compile-time value", void 0));
 };
+var __N_SSG = true;
 const __TURBOPACK__default__export__ = index;
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
     __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
