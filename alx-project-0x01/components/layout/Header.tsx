@@ -7,7 +7,7 @@ const Header: React.FC = () => {
       <header className="bg-blue-600 text-white shadow-md py-4">
         <div className="container mx-auto flex justify-between items-center px-4">
           <h3 className="font-bold text-2xl">
-            <Link href="/">Daily Contents</Link>
+            <Link href="/">Daily Content</Link>
           </h3>
           <nav>
             <ul className="flex space-x-6">

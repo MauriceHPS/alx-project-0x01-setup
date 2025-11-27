@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///home/maurice/FS-Stuff/NextJS/alx-project-0x01-setup/alx-project-0x01/pages/users/index.tsx"],"sourcesContent":["import Header from \"@/components/layout/Header\";\nimport React from \"react\";\n\nconst Home: React.FC = () => {\n  return (\n    <>\n      <div className=\"flex flex-col h-screen\">{/* <Header /> */}</div>\n    </>\n  );\n};\n\nexport default Home;\n"],"names":[],"mappings":";;;;;;AAGA,MAAM,OAAiB;IACrB,qBACE;kBACE,cAAA,qKAAC;YAAI,WAAU;;;;;;;AAGrB;uCAEe"}}]
+}

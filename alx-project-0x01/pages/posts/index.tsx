@@ -17,8 +17,12 @@ const Posts: React.FC<PostProps[]> = ({ posts }) => {
       <div className="flex flex-col h-screen">
         <Header />
         <main className="p-4">
-          <div className="flex justify-between">
-            <h1 className="text-2xl font-semibold">Post Content</h1>
+          <div className="flex justify-center">
+            <h1 className="text-5xl font-semibold text-gray-600/80">
+              Post Content
+            </h1>
+          </div>
+          <div className="flex justify-end">
             <button
               onClick={() => setModalOpen(true)}
               className="bg-blue-700 px-4 py-2 rounded-full text-white"
@@ -42,7 +46,7 @@ const Posts: React.FC<PostProps[]> = ({ posts }) => {
         </main>
         {isModalOpen && (
           <PostModal
-            onclose={() => setModalOpen(false)}
+            onClose={() => setModalOpen(false)}
             onSubmit={handleAddPost}
           />
         )}
