@@ -16,3 +16,34 @@
 [00:13:13.927] Server  LOG      ✓ Compiled in 43ms
 [00:13:14.110] Browser LOG     Refreshing page data due to server-side change
 [00:16:44.091] Server  LOG      ✓ Compiled in 36ms
+[00:31:37.493] Server  LOG      ✓ Compiled in 61ms
+[00:32:34.881] Server  LOG      ✓ Compiled in 49ms
+[00:33:02.994] Server  LOG      ✓ Compiled in 39ms
+[00:34:56.440] Server  LOG      ✓ Compiled in 46ms
+[00:36:18.205] Server  LOG      ✓ Compiled in 52ms
+[00:37:55.594] Server  LOG      ✓ Compiled in 76ms
+[00:39:26.217] Server  LOG      ✓ Compiled in 69ms
+[00:41:05.799] Server  LOG      ✓ Compiled in 57ms
+[00:42:27.753] Server  LOG      ✓ Compiled in 95ms
+[00:45:17.375] Server  LOG      ✓ Compiled in 130ms
+[00:46:01.974] Server  LOG      ✓ Compiled in 66ms
+[00:47:16.866] Server  LOG      ✓ Compiled in 85ms
+[00:48:45.620] Server  LOG      ✓ Compiled in 27ms
+[00:53:39.240] Server  LOG      ✓ Compiled in 76ms
+[00:54:43.202] Server  LOG      ✓ Compiled in 78ms
+[00:54:51.025] Server  LOG      ✓ Compiled in 38ms
+[00:58:57.050] Server  LOG      ✓ Compiled in 55ms
+[01:08:46.382] Browser ERROR   %o
+
+%s
+
+%s
+ {} The above error occurred in the <PostModal> component. React will try to recreate this component tree from scratch using the error boundary you provided, PagesDevOverlayErrorBoundary.
+[01:09:41.173] Server  LOG      ✓ Compiled in 66ms
+[01:09:41.341] Browser ERROR   %o
+
+%s
+
+%s
+ {} The above error occurred in the <PostModal> component. React will try to recreate this component tree from scratch using the error boundary you provided, PagesDevOverlayErrorBoundary.
+[01:10:46.655] Server  LOG      ✓ Compiled in 48ms
