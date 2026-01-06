@@ -4,12 +4,12 @@ import Header from "@/components/layout/Header";
 import { UserData, UserProps } from "@/interfaces";
 import React, { useState } from "react";
 
-const Users: React.FC<UserProps[]> = ({ userData }) => {
+const Users: React.FC<UserProps[]> = ({ posts }) => {
   const [isModalOpen, setModalOpen] = useState(false);
   const [user, setUser] = useState<UserData | null>(null);
 
   const handleAddUser = (newUser: UserData) => {
-    setUser({ ...newUser, id: userData.length + 1 });
+    setUser({ ...newUser, id: posts.length + 1 });
   };
 
   return (
@@ -31,7 +31,7 @@ const Users: React.FC<UserProps[]> = ({ userData }) => {
             </button>
           </div>
           <div className="grid grid-cols-3 gap-2">
-            {userData?.map(
+            {posts?.map(
               (
                 {
                   id,
@@ -73,11 +73,11 @@ const Users: React.FC<UserProps[]> = ({ userData }) => {
 
 export async function getStaticProps() {
   const response = await fetch("https://jsonplaceholder.typicode.com/users");
-  const userData = await response.json();
+  const posts = await response.json();
 
   return {
     props: {
-      userData,
+      posts,
     },
   };
 }

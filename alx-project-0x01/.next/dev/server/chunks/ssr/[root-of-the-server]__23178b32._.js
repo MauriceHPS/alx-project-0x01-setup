@@ -363,13 +363,13 @@ var __TURBOPACK__imported__module__$5b$externals$5d2f$react__$5b$external$5d$__$
 ;
 ;
 ;
-const Users = ({ userData })=>{
+const Users = ({ posts })=>{
     const [isModalOpen, setModalOpen] = (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react__$5b$external$5d$__$28$react$2c$__cjs$29$__["useState"])(false);
     const [user, setUser] = (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react__$5b$external$5d$__$28$react$2c$__cjs$29$__["useState"])(null);
     const handleAddUser = (newUser)=>{
         setUser({
             ...newUser,
-            id: userData.length + 1
+            id: posts.length + 1
         });
     };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["Fragment"], {
@@ -417,7 +417,7 @@ const Users = ({ userData })=>{
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                             className: "grid grid-cols-3 gap-2",
-                            children: userData?.map(({ id, name, username, email, address, phone, website, company }, key)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$alx$2d$project$2d$0x01$2d$setup$2f$alx$2d$project$2d$0x01$2f$components$2f$common$2f$UserCard$2e$tsx__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                            children: posts?.map(({ id, name, username, email, address, phone, website, company }, key)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$alx$2d$project$2d$0x01$2d$setup$2f$alx$2d$project$2d$0x01$2f$components$2f$common$2f$UserCard$2e$tsx__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
                                     id: id,
                                     name: name,
                                     username: username,
@@ -460,10 +460,10 @@ const Users = ({ userData })=>{
 };
 async function getStaticProps() {
     const response = await fetch("https://jsonplaceholder.typicode.com/users");
-    const userData = await response.json();
+    const posts = await response.json();
     return {
         props: {
-            userData
+            posts
         }
     };
 }
