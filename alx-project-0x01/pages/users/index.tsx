@@ -17,12 +17,11 @@ const Users: React.FC<UserProps[]> = ({ posts }) => {
       <div className="flex flex-col h-screen">
         <Header />
         <main className="p-4">
-          <div className="flex justify-center">
+          <div className="flex justify-between">
             <h1 className="flex font-bold text-3xl text-gray-800/60">
               Users Content
             </h1>
-          </div>
-          <div className="flex justify-end">
+
             <button
               onClick={() => setModalOpen(true)}
               className="bg-blue-700 px-4 py-2 rounded-full text-white"
@@ -30,6 +29,7 @@ const Users: React.FC<UserProps[]> = ({ posts }) => {
               Add User
             </button>
           </div>
+
           <div className="grid grid-cols-3 gap-2">
             {posts.map(
               (
@@ -60,6 +60,7 @@ const Users: React.FC<UserProps[]> = ({ posts }) => {
             )}
           </div>
         </main>
+
         {isModalOpen && (
           <UserModal
             onClose={() => setModalOpen(false)}

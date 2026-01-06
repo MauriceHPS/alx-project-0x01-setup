@@ -47,3 +47,295 @@
 %s
  {} The above error occurred in the <PostModal> component. React will try to recreate this component tree from scratch using the error boundary you provided, PagesDevOverlayErrorBoundary.
 [01:10:46.655] Server  LOG      ✓ Compiled in 48ms
+[01:26:50.223] Server  LOG      ✓ Compiled in 71ms
+[01:26:50.495] Browser ERROR   ./alx-project-0x01-setup/alx-project-0x01/components/common/PostModal.tsx:7:5
+Parsing ecmascript source code failed
+   5 |   const [post, setPost] = useState<PostData>({
+   6 |     userId: 1,l
+>  7 |     title: "",
+     |     ^^^^^
+   8 |     body: "",
+   9 |   });
+  10 |
+
+Unexpected token `title`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Browser:
+    ./alx-project-0x01-setup/alx-project-0x01/components/common/PostModal.tsx
+    ./alx-project-0x01-setup/alx-project-0x01/pages/posts/index.tsx
+
+  SSR:
+    ./alx-project-0x01-setup/alx-project-0x01/components/common/PostModal.tsx
+    ./alx-project-0x01-setup/alx-project-0x01/pages/posts/index.tsx
+[02:23:40.627] Browser ERROR   ./alx-project-0x01-setup/alx-project-0x01/components/common/PostModal.tsx:7:5
+Parsing ecmascript source code failed
+   5 |   const [post, setPost] = useState<PostData>({
+   6 |     userId: 1,l
+>  7 |     title: "",
+     |     ^^^^^
+   8 |     body: "",
+   9 |   });
+  10 |
+
+Unexpected token `title`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Browser:
+    ./alx-project-0x01-setup/alx-project-0x01/components/common/PostModal.tsx
+    ./alx-project-0x01-setup/alx-project-0x01/pages/posts/index.tsx
+
+  SSR:
+    ./alx-project-0x01-setup/alx-project-0x01/components/common/PostModal.tsx
+    ./alx-project-0x01-setup/alx-project-0x01/pages/posts/index.tsx
+[02:23:41.295] Browser ERROR   ./alx-project-0x01-setup/alx-project-0x01/components/common/PostModal.tsx:7:5
+Parsing ecmascript source code failed
+   5 |   const [post, setPost] = useState<PostData>({
+   6 |     userId: 1,l
+>  7 |     title: "",
+     |     ^^^^^
+   8 |     body: "",
+   9 |   });
+  10 |
+
+Unexpected token `title`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Browser:
+    ./alx-project-0x01-setup/alx-project-0x01/components/common/PostModal.tsx
+    ./alx-project-0x01-setup/alx-project-0x01/pages/posts/index.tsx
+
+  SSR:
+    ./alx-project-0x01-setup/alx-project-0x01/components/common/PostModal.tsx
+    ./alx-project-0x01-setup/alx-project-0x01/pages/posts/index.tsx
+[02:23:42.390] Browser ERROR   uncaughtError: Error: ./alx-project-0x01-setup/alx-project-0x01/components/common/PostModal.tsx:7:5
+Parsing ecmascript source code failed
+   5 |   const [post, setPost] = useState<PostData>({
+   6 |     userId: 1,l
+>  7 |     title: "",
+     |     ^^^^^
+   8 |     body: "",
+   9 |   });
+  10 |
+
+Unexpected token `title`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Browser:
+    ./alx-project-0x01-setup/alx-project-0x01/components/common/PostModal.tsx
+    ./alx-project-0x01-setup/alx-project-0x01/pages/posts/index.tsx
+
+  SSR:
+    ./alx-project-0x01-setup/alx-project-0x01/components/common/PostModal.tsx
+    ./alx-project-0x01-setup/alx-project-0x01/pages/posts/index.tsx
+
+
+[02:23:42.524] Browser ERROR   ./alx-project-0x01-setup/alx-project-0x01/components/common/PostModal.tsx:7:5
+Parsing ecmascript source code failed
+   5 |   const [post, setPost] = useState<PostData>({
+   6 |     userId: 1,l
+>  7 |     title: "",
+     |     ^^^^^
+   8 |     body: "",
+   9 |   });
+  10 |
+
+Unexpected token `title`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Browser:
+    ./alx-project-0x01-setup/alx-project-0x01/components/common/PostModal.tsx
+    ./alx-project-0x01-setup/alx-project-0x01/pages/posts/index.tsx
+
+  SSR:
+    ./alx-project-0x01-setup/alx-project-0x01/components/common/PostModal.tsx
+    ./alx-project-0x01-setup/alx-project-0x01/pages/posts/index.tsx
+[02:23:42.750] Browser ERROR   ./alx-project-0x01-setup/alx-project-0x01/components/common/PostModal.tsx:7:5
+Parsing ecmascript source code failed
+   5 |   const [post, setPost] = useState<PostData>({
+   6 |     userId: 1,l
+>  7 |     title: "",
+     |     ^^^^^
+   8 |     body: "",
+   9 |   });
+  10 |
+
+Unexpected token `title`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Browser:
+    ./alx-project-0x01-setup/alx-project-0x01/components/common/PostModal.tsx
+    ./alx-project-0x01-setup/alx-project-0x01/pages/posts/index.tsx
+
+  SSR:
+    ./alx-project-0x01-setup/alx-project-0x01/components/common/PostModal.tsx
+    ./alx-project-0x01-setup/alx-project-0x01/pages/posts/index.tsx
+[02:30:39.915] Server  LOG      ✓ Compiled in 75ms
+[02:30:40.024] Browser ERROR   ./alx-project-0x01-setup/alx-project-0x01/components/common/PostModal.tsx:7:5
+Parsing ecmascript source code failed
+   5 |   const [post, setPost] = useState<PostData>({
+   6 |     userId: 1,l
+>  7 |     title: "",
+     |     ^^^^^
+   8 |     body: "",
+   9 |   });
+  10 |
+
+Unexpected token `title`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Browser:
+    ./alx-project-0x01-setup/alx-project-0x01/components/common/PostModal.tsx
+    ./alx-project-0x01-setup/alx-project-0x01/pages/posts/index.tsx
+
+  SSR:
+    ./alx-project-0x01-setup/alx-project-0x01/components/common/PostModal.tsx
+    ./alx-project-0x01-setup/alx-project-0x01/pages/posts/index.tsx
+[02:30:47.446] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:39:42.140] Server  LOG      ✓ Compiled in 55ms
+[02:40:15.131] Server  LOG      ✓ Compiled in 40ms
+[02:41:09.575] Server  LOG      ✓ Compiled in 39ms
+[02:43:02.384] Server  LOG      ✓ Compiled in 53ms
+[02:47:43.858] Server  LOG      ✓ Compiled in 35ms
+[03:02:28.765] Server  LOG      ✓ Compiled in 41ms
+[03:02:40.423] Server  LOG      ✓ Compiled in 44ms
+[03:03:54.361] Server  LOG      ✓ Compiled in 20ms
+[03:24:55.265] Server  LOG      ✓ Compiled in 60ms
+[03:27:46.389] Server  LOG      ✓ Compiled in 87ms
+[03:36:01.574] Server  LOG      ✓ Compiled in 108ms
+[04:52:17.270] Server  LOG      ✓ Compiled in 150ms
+[04:52:18.497] Browser ERROR   ./alx-project-0x01-setup/alx-project-0x01/components/common/UserModal.tsx:48:16
+Parsing ecmascript source code failed
+  46 |           <h2 className="text-2xl font-bold mb-4 text-gray-800">Add New User</h2>
+  47 |             <form onSubmit={handleSubmit}>
+> 48 |               <!--ID--!>
+     |                ^
+  49 |               <div className="mb-4">
+  50 |                 <label htmlFor="">ID</label>
+  51 |                 <input
+
+Expected '</', got '!'
+
+Import traces:
+  Browser:
+    ./alx-project-0x01-setup/alx-project-0x01/components/common/UserModal.tsx
+    ./alx-project-0x01-setup/alx-project-0x01/pages/users/index.tsx
+
+  SSR:
+    ./alx-project-0x01-setup/alx-project-0x01/components/common/UserModal.tsx
+    ./alx-project-0x01-setup/alx-project-0x01/pages/users/index.tsx
+[04:53:18.484] Server  LOG      ✓ Compiled in 49ms
+[04:55:02.894] Server  LOG      ✓ Compiled in 61ms
+[04:56:28.778] Server  LOG      ✓ Compiled in 27ms
+[04:58:24.799] Server  LOG      ✓ Compiled in 56ms
+[05:03:14.309] Server  LOG      ✓ Compiled in 112ms
+[05:09:28.269] Server  LOG      ✓ Compiled in 105ms
+[05:10:37.921] Server  LOG      ✓ Compiled in 62ms
+[05:11:53.385] Server  LOG      ✓ Compiled in 96ms
+[05:13:31.688] Server  LOG      ✓ Compiled in 46ms
+[05:15:19.601] Server  LOG      ✓ Compiled in 52ms
+[07:20:54.710] Server  LOG      ✓ Compiled in 51ms
+[07:24:07.040] Server  LOG      ✓ Compiled in 111ms
+[07:28:37.711] Server  LOG      ✓ Compiled in 91ms
+[07:30:33.642] Server  LOG      ✓ Compiled in 108ms
+[07:31:18.915] Server  LOG      ✓ Compiled in 73ms
+[07:31:39.237] Server  LOG      ✓ Compiled in 63ms
+[07:34:36.998] Server  LOG      ✓ Compiled in 153ms
+[07:34:50.339] Server  LOG      ✓ Compiled in 75ms
+[07:38:07.685] Server  LOG      ✓ Compiled in 53ms
+[07:38:34.401] Server  LOG      ✓ Compiled in 38ms
+[07:39:06.081] Server  LOG      ✓ Compiled in 56ms
+[07:39:24.275] Server  LOG      ✓ Compiled in 110ms
+[07:39:37.492] Server  LOG      ✓ Compiled in 110ms
+[07:39:56.020] Server  LOG      ✓ Compiled in 80ms
+[07:40:23.001] Server  LOG      ✓ Compiled in 93ms
+[07:40:39.479] Server  LOG      ✓ Compiled in 41ms
+[07:40:45.051] Server  LOG      ✓ Compiled in 45ms
+[07:41:06.224] Server  LOG      ✓ Compiled in 45ms
+[07:41:44.593] Server  LOG      ✓ Compiled in 57ms
+[07:42:19.544] Server  LOG      ✓ Compiled in 52ms
+[07:42:38.398] Server  LOG      ✓ Compiled in 44ms
+[07:43:16.252] Server  LOG      ✓ Compiled in 49ms
+[07:44:18.717] Server  LOG      ✓ Compiled in 49ms
+[07:44:26.702] Server  LOG      ✓ Compiled in 104ms
+[07:44:33.343] Server  LOG      ✓ Compiled in 41ms
+[07:45:41.366] Server  LOG      ✓ Compiled in 29ms
+[07:46:13.728] Server  LOG      ✓ Compiled in 51ms
+[07:46:29.747] Server  LOG      ✓ Compiled in 34ms
+[07:46:39.184] Server  LOG      ✓ Compiled in 84ms
+[07:47:24.710] Server  LOG      ✓ Compiled in 70ms
+[07:48:57.884] Server  LOG      ✓ Compiled in 47ms
+[07:49:31.979] Server  LOG      ✓ Compiled in 47ms
+[07:49:48.362] Server  LOG      ✓ Compiled in 55ms
+[07:50:01.608] Server  LOG      ✓ Compiled in 60ms
+[07:50:23.908] Server  LOG      ✓ Compiled in 61ms
+[07:50:31.557] Server  LOG      ✓ Compiled in 87ms
+[07:50:37.947] Server  LOG      ✓ Compiled in 86ms
+[07:54:59.431] Server  LOG      ✓ Compiled in 144ms
+[07:56:20.276] Server  LOG      ✓ Compiled in 72ms
+[07:58:45.184] Server  LOG      ✓ Compiled in 73ms
+[08:00:28.678] Server  LOG      ✓ Compiled in 104ms
+[08:01:17.374] Server  LOG      ✓ Compiled in 36ms
+[08:04:08.392] Server  LOG      ✓ Compiled in 44ms
+[08:04:15.095] Server  LOG      ✓ Compiled in 66ms
+[08:18:33.912] Server  LOG      ✓ Compiled in 39ms
+[08:23:19.238] Server  LOG      ✓ Compiled in 130ms
+[08:23:50.599] Server  LOG      ✓ Compiled in 46ms
+[08:42:19.332] Server  LOG      ✓ Compiled in 88ms
+[08:42:26.886] Server  LOG      ✓ Compiled in 36ms
+[08:42:34.594] Server  LOG      ✓ Compiled in 34ms
+[08:48:21.417] Server  LOG      ✓ Compiled in 47ms
+[08:48:46.768] Server  LOG      ✓ Compiled in 26ms
+[08:52:46.284] Server  LOG      ✓ Compiled in 153ms
+[08:53:19.176] Server  LOG      ✓ Compiled in 36ms
+[08:53:58.819] Server  LOG      ✓ Compiled in 38ms
+[08:54:22.598] Server  LOG      ✓ Compiled in 39ms
+[08:56:25.413] Server  LOG      ✓ Compiled in 81ms
+[08:56:48.630] Server  LOG      ✓ Compiled in 76ms
+[08:56:56.229] Server  LOG      ✓ Compiled in 81ms
+[08:57:04.465] Server  LOG      ✓ Compiled in 45ms
+[08:57:10.711] Server  LOG      ✓ Compiled in 59ms
+[08:57:31.906] Server  LOG      ✓ Compiled in 82ms
+[08:57:40.255] Server  LOG      ✓ Compiled in 47ms
+[08:59:32.992] Server  LOG      ✓ Compiled in 89ms
+[08:59:43.226] Server  LOG      ✓ Compiled in 100ms
+[09:00:55.132] Server  LOG      ✓ Compiled in 69ms
+[09:01:04.333] Server  LOG      ✓ Compiled in 70ms
+[09:01:18.786] Server  LOG      ✓ Compiled in 99ms
+[09:04:28.874] Server  LOG      ✓ Compiled in 77ms
+[09:04:54.721] Server  LOG      ✓ Compiled in 30ms
+[09:05:32.299] Server  LOG      ✓ Compiled in 36ms
+[09:08:50.699] Server  LOG      ✓ Compiled in 93ms
+[09:09:01.983] Server  LOG      ✓ Compiled in 85ms
+[09:09:14.793] Server  LOG      ✓ Compiled in 40ms
+[09:09:34.090] Server  LOG      ✓ Compiled in 45ms
+[09:10:06.004] Server  LOG      ✓ Compiled in 80ms
+[09:10:15.466] Server  LOG      ✓ Compiled in 92ms
+[09:10:24.153] Server  LOG      ✓ Compiled in 85ms
+[09:10:33.857] Server  LOG      ✓ Compiled in 79ms
+[09:10:50.850] Server  LOG      ✓ Compiled in 36ms
+[09:11:21.845] Server  LOG      ✓ Compiled in 58ms
+[09:11:44.404] Server  LOG      ✓ Compiled in 54ms
+[09:11:58.404] Server  LOG      ✓ Compiled in 91ms
+[09:12:14.139] Server  LOG      ✓ Compiled in 74ms
+[09:12:21.914] Server  LOG      ✓ Compiled in 75ms
+[09:16:28.250] Server  LOG      ✓ Compiled in 33ms
+[09:17:27.154] Server  LOG      ✓ Compiled in 43ms
+[09:18:50.780] Server  LOG      ✓ Compiled in 47ms
+[09:18:56.092] Server  LOG      ✓ Compiled in 48ms
+[09:21:52.496] Server  LOG      ✓ Compiled in 45ms
+[09:22:30.783] Server  LOG      ✓ Compiled in 71ms
+[09:23:00.711] Server  LOG      ✓ Compiled in 37ms
+[09:23:25.148] Server  LOG      ✓ Compiled in 45ms
+[09:23:54.109] Server  LOG      ✓ Compiled in 38ms
+[09:24:26.131] Server  LOG      ✓ Compiled in 35ms
+[09:25:39.900] Server  LOG      ✓ Compiled in 37ms
+[09:26:47.415] Server  LOG      ✓ Compiled in 59ms
+[09:27:06.108] Server  LOG      ✓ Compiled in 43ms
+[09:27:19.642] Server  LOG      ✓ Compiled in 28ms
+[09:27:33.377] Server  LOG      ✓ Compiled in 44ms
+[09:27:45.628] Server  LOG      ✓ Compiled in 44ms
+[09:28:05.798] Server  LOG      ✓ Compiled in 50ms
+[09:28:40.297] Server  LOG      ✓ Compiled in 54ms
+[09:28:58.475] Server  LOG      ✓ Compiled in 41ms
+[09:29:03.708] Server  LOG      ✓ Compiled in 46ms
