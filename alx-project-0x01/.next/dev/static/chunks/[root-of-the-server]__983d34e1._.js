@@ -902,7 +902,7 @@ const Users = ({ posts })=>{
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$alx$2d$project$2d$0x01$2d$setup$2f$alx$2d$project$2d$0x01$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "grid grid-cols-3 gap-2",
-                            children: posts?.map(({ id, name, username, email, address, phone, website, company }, key)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$alx$2d$project$2d$0x01$2d$setup$2f$alx$2d$project$2d$0x01$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$alx$2d$project$2d$0x01$2d$setup$2f$alx$2d$project$2d$0x01$2f$components$2f$common$2f$UserCard$2e$tsx__$5b$client$5d$__$28$ecmascript$29$__["default"], {
+                            children: posts.map(({ id, name, username, email, address, phone, website, company }, key)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$alx$2d$project$2d$0x01$2d$setup$2f$alx$2d$project$2d$0x01$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$alx$2d$project$2d$0x01$2d$setup$2f$alx$2d$project$2d$0x01$2f$components$2f$common$2f$UserCard$2e$tsx__$5b$client$5d$__$28$ecmascript$29$__["default"], {
                                     id: id,
                                     name: name,
                                     username: username,
