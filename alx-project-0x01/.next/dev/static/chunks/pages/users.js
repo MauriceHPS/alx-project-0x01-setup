@@ -1,12 +1,12 @@
 __turbopack_load_page_chunks__("/users", [
-  "static/chunks/a8c22_next_dist_compiled_1162b1ba._.js",
-  "static/chunks/a8c22_next_dist_shared_lib_9e2c0ee1._.js",
-  "static/chunks/a8c22_next_dist_client_ef6db145._.js",
-  "static/chunks/a8c22_next_dist_5b2c1ce2._.js",
-  "static/chunks/a8c22_next_link_bb6a413a.js",
-  "static/chunks/a8c22_react-dom_c89be889._.js",
-  "static/chunks/a8c22_1d207d28._.js",
-  "static/chunks/[root-of-the-server]__585d4b10._.js",
-  "static/chunks/alx-project-0x01_pages_users_index_tsx_2da965e7._.js",
-  "static/chunks/turbopack-alx-project-0x01_pages_users_index_tsx_ff956f95._.js"
+  "static/chunks/580d8_next_dist_compiled_6037817a._.js",
+  "static/chunks/580d8_next_dist_shared_lib_0f21af36._.js",
+  "static/chunks/580d8_next_dist_client_2fd4fc0f._.js",
+  "static/chunks/580d8_next_dist_17c310f6._.js",
+  "static/chunks/580d8_next_link_997ea612.js",
+  "static/chunks/580d8_react-dom_4593ba95._.js",
+  "static/chunks/580d8_0f8cef83._.js",
+  "static/chunks/[root-of-the-server]__983d34e1._.js",
+  "static/chunks/alx-project-0x01-setup_alx-project-0x01_pages_users_index_tsx_2da965e7._.js",
+  "static/chunks/turbopack-alx-project-0x01-setup_alx-project-0x01_pages_users_index_tsx_94c9d859._.js"
 ])

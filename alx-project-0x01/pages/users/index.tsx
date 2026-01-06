@@ -17,11 +17,12 @@ const Users: React.FC<UserProps[]> = ({ userData }) => {
       <div className="flex flex-col h-screen">
         <Header />
         <main className="p-4">
-          <div className="flex justify-between">
-            <h1 className="flex text-center text-2xl font-semibold">
+          <div className="flex justify-center">
+            <h1 className="flex font-bold text-3xl text-gray-800/60">
               Users Content
             </h1>
-
+          </div>
+          <div className="flex justify-end">
             <button
               onClick={() => setModalOpen(true)}
               className="bg-blue-700 px-4 py-2 rounded-full text-white"
